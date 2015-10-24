@@ -1,0 +1,137 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #990000;
+  font-weight: 300;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("http://imagelot.com/images/illustrations/img/52730826_abstract-white-geometric.jpg");
+}
+
+.container {
+  margin-top: 15px;
+  max-width: 960px;
+}
+
+header, .super-title {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+
+}
+
+.super-title {
+  display: block;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.headshot {
+  max-height: 200px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.dividing-line {
+  height: 4px;
+  width: 960px;
+  border: 0;
+  background-color: #00004D;
+  max-width: 100%
+}
+
+.headshot-img {
+  margin-left: 0;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.position {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.ships {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .headshot-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .super-title {
+    text-align: center;
+  }
+  .work {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .super-title {
+    margin-right: auto;
+  }
+  .headshot-img {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 630px) and (max-width: 960px) {
+  .headshot-img {
+    margin-left: 0;
+  }
+
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info{
+  display: block;
+}
+
+.project-img {
+  max-width: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project-item {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.links {
+  color: #990000;
+}
+
+.featured {
+  font-weight: 300;
+  color: #00004D;
+  font-size: 25px;
+  max-width: 100%;
+  margin-left: 1em;
+}
